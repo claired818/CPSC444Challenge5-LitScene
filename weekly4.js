@@ -269,14 +269,23 @@ function render()
         false,
         perspective(canvas.width / canvas.height)
     );
+
+    let theta = performance.now();
+    let x = Math.cos(theta * 0.02);
+    let z = Math.sin(theta * 0.02);
     gl.uniform3f(
         uniforms.lightDirection,
-        0.5,
-        0.8,
-        1.0
+        x,
+        1.0,
+        z
     );
-    gl.uniform3f(uniforms.lightColor, 1, 1, 1);
-    gl.uniform1f(uniforms.ambient, 0.22);
+
+    let r = Math.abs(Math.sin(theta * 0.02));
+    let g = Math.abs(Math.cos(theta * 0.03));
+    let b = Math.abs(Math.sin(theta * 0.04));
+    gl.uniform3f(uniforms.lightColor, r, g, b);
+
+    gl.uniform1f(uniforms.ambient, 0.3);
     draw(ground, identity(), [0.35, 0.38, 0.42]);
     draw(cube, transform(-2.5, 1, 0, 1, 0), [0.9, 0.25, 0.2]);
     draw(cube, transform(2.5, 1, 0, 1, 0), [0.2, 0.45, 0.95]);
