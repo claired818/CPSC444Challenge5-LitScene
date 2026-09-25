@@ -1,0 +1,14 @@
+1. Which scene was the easiest to create?
+      The easiest scene to create was either the sunset or the moonlight scene. The changes for those were pretty similar.
+2. Which scene looked the most realistic?
+      In my opinion, the campfire scene looked the most realistic.
+3. How did ambient light affect the mood of each scene?
+      The color of the ambient light helps portray the kind of lighting. Warmer tones represent light sources that typically emit warmth, like a campfire or the sun.       Cooler tones represent light sources that typically don't emit warmth, like the moon. By changing the color of the ambient light you can change the temperature       feel of the scene.
+4. How did light direction affect visibility?
+      Changing the direction of the light changed which parts of the shapes were most visible.
+5. Which color produced the strongest visual effect?
+      The reddish-orange of the campfire scene produced the most dramatic effect.
+6. Why do game developers spend so much time adjusting lighting?
+      They spend so much time on lighting because it affects the mood of the scene so much. The color and direction of the lighting can make the difference between a       scene being tense and suspenseful or being calm and soothing.
+7. If you were making a horror game, what lighting would you use and why?
+      If I was making a horror game I would use low, side lighting with a reddish tint. This would create a dark atmosphere with dramatic shadows. The reddish tint         would also help to invoke horror-esque feelings because the color red holds connotations often associated with horror games, for example blood.
